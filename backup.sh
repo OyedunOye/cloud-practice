@@ -37,9 +37,11 @@ backupFileName="backup-$currentTS.tar.gz"
 # To make things easier, we will define some useful variables...
 
 # [TASK 5]
+# pwd = print working directory
 origAbsPath=`pwd`
 
 # [TASK 6]
+# cd = change directory
 cd $destinationDirectory
 destDirAbsPath=`pwd`
 
